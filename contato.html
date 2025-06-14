@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato e Agendamento | Ad Movere: Fale Conosco</title>
+    <meta name="description" content="Entre em contato com a Ad Movere para solicitar orçamento, agendar uma reunião ou tirar dúvidas sobre nossos serviços em Nova Friburgo/RJ.">
+    <meta name="keywords" content="contato, agendamento, formulário de contato, consultoria Nova Friburgo, telefone, e-mail Ad Movere">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlroMhK4h4fQnK6b+L+0e/Yk4XW+T+C8w/6jG+K/V+8+Z+A+J+Q+R+F+T+D+L+H+I+J+K+L+M+N+O+P+Q+R+S+T+U+V+W+X+Y+Z+" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/admovere-logo.png" alt="Ad Movere Logo - Movimentar para alcançar resultados">
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="parceiros.html">Parceiros</a></li>
+                    <li><a href="contato.html" class="btn btn-primary active">Contato</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle" aria-label="Abrir menu mobile"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay">
+        <button class="close-menu-btn" aria-label="Fechar menu mobile"><i class="fas fa-times"></i></button>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre Nós</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="parceiros.html">Parceiros</a></li>
+            <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="page-hero" style="background-image: url('images/page-hero-contact.jpg');">
+            <div class="container">
+                <h1>Fale Conosco</h1>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>Informações de Contato</h2>
+                        <p>Estamos prontos para ouvir suas necessidades e ajudar você a "Movimentar para alcançar resultados". Entre em contato por telefone, e-mail ou venha nos visitar.</p>
+
+                        <div class="contact-item-modern">
+                            <i class="fas fa-phone-alt"></i>
+                            <div class="text-content">
+                                <h3>Telefone / WhatsApp</h3>
+                                <a href="https://wa.me/5522974027923" target="_blank" rel="noopener noreferrer">(22) 97402-7923</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item-modern">
+                            <i class="fas fa-envelope"></i>
+                            <div class="text-content">
+                                <h3>E-mail</h3>
+                                <a href="mailto:admovere.nf@gmail.com">admovere.nf@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item-modern">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="text-content">
+                                <h3>Endereço</h3>
+                                <p style="margin-bottom: 0;">Avenida Governador Geremias de Mattos Fontes , 26, Cobertura Centro - Nova Friburgo/RJ - 28613-140</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item-modern">
+                            <i class="fas fa-clock"></i>
+                            <div class="text-content">
+                                <h3>Horário de Atendimento</h3>
+                                <p style="margin-bottom: 0;">Segunda a Sexta, das 9h às 18h</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <h2>Entre em contato ou Agende uma visita</h2>
+                        <p>Preencha o formulário abaixo e entraremos em contato o mais breve possível para entender suas necessidades ou confirmar seu agendamento.</p>
+                        <form id="contactForm" action="https://formspree.io/f/xgvyyvdb" method="POST">
+                            <div class="form-group">
+                                <label for="name">Nome Completo:</label>
+                                <input type="text" id="name" name="Nome" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail:</label>
+                                <input type="email" id="email" name="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefone/WhatsApp:</label>
+                                <input type="tel" id="phone" name="Telefone/WhatsApp">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Assunto / Tipo de Contato:</label>
+                                <select id="subject" name="Assunto" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="Solicitacao de Orcamento - Consultoria Empresarial">Solicitação de Orçamento - Consultoria Empresarial</option>
+                                    <option value="Solicitacao de Orcamento - Desenvolvimento Pessoal">Solicitação de Orçamento - Desenvolvimento Pessoal</option>
+                                    <option value="Agendamento de Visita">Agendamento de Visita</option>
+                                    <option value="Duvida Geral">Dúvida Geral</option>
+                                    <option value="Proposta de Parceria">Proposta de Parceria</option>
+                                    <option value="Outro Assunto">Outro Assunto</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="preferred-date-time">Data e Horário de Preferência para Agendamento (Opcional):</label>
+                                <input type="datetime-local" id="preferred-date-time" name="Data e Horário Preferidos">
+                                <small>Nossa equipe entrará em contato para confirmar a disponibilidade.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem:</label>
+                                <textarea id="message" name="Mensagem" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                            <p id="form-status" style="margin-top: 15px; font-weight: bold;"></p>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <h2>Nossa Localização em Nova Friburgo</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.753360408569!2d-42.53322192452331!3d-22.585786379511675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x978a7f1a30f145%3A0xc3f5b7a0f671c667!2sAv.%20Gov.%20Geremias%20de%20Mattos%20Fontes%2C%2026%20-%20Centro%2C%20Nova%20Friburgo%20-%20RJ%2C%2028613-140!5e0!3m2!1spt-BR!2sbr!4v1718306000000!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-info">
+                <h4>Ad Movere</h4>
+                <p>Impulsionando o Sucesso de Empresas e Pessoas.</p>
+                <p>© 2025 Ad Movere. Todos os direitos reservados.</p>
+            </div>
+            <div class="footer-nav">
+                <h4>Navegação</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                    <li><a href="parceiros.html">Parceiros</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p><i class="fas fa-phone-alt"></i> Telefone/WhatsApp: <a href="https://wa.me/5522974027923" target="_blank" rel="noopener noreferrer">(22) 97402-7923</a></p>
+                <p><i class="fas fa-envelope"></i> E-mail: <a href="mailto:admovere.nf@gmail.com">admovere.nf@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Av. Gov. Geremias de Mattos Fontes, 26, Cobertura - Centro - Nova Friburgo/RJ</p>
+		<p><i class="fas fa-map-marker-alt"></i> 28613-140</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Desenvolvido por Igor Sinder Franco para Ad Movere.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const formStatus = document.getElementById('form-status');
+            const submitButton = contactForm.querySelector('button[type="submit"]');
+
+            if (contactForm && formStatus && submitButton) {
+                contactForm.addEventListener('submit', async function(event) {
+                    event.preventDefault(); // Impede o envio padrão do formulário
+
+                    // Desabilita o botão e mostra status de envio
+                    submitButton.disabled = true;
+                    submitButton.textContent = 'Enviando...';
+                    formStatus.innerHTML = ''; // Limpa qualquer mensagem anterior
+                    formStatus.classList.remove('success', 'error');
+
+                    const formData = new FormData(contactForm);
+
+                    try {
+                        // Faz a requisição para o Formspree
+                        const response = await fetch(contactForm.action, {
+                            method: contactForm.method,
+                            body: formData,
+                            headers: {
+                                // Adiciona o cabeçalho Accept para JSON
+                                'Accept': 'application/json'
+                            }
+                        });
+
+                        if (response.ok) {
+                            formStatus.innerHTML = "Mensagem enviada com sucesso! Em breve entraremos em contato.";
+                            formStatus.classList.add('success');
+                            contactForm.reset(); // Limpa o formulário
+                        } else {
+                            // Tenta ler a resposta JSON para erros específicos do Formspree
+                            const data = await response.json();
+                            if (Object.hasOwnProperty.call(data, 'errors')) {
+                                formStatus.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+                            } else {
+                                formStatus.innerHTML = "Oops! Houve um problema ao enviar sua mensagem. Tente novamente.";
+                            }
+                            formStatus.classList.add('error');
+                        }
+                    } catch (error) {
+                        // Erro de rede ou outro problema na requisição
+                        console.error('Erro ao enviar formulário:', error);
+                        formStatus.innerHTML = "Oops! Houve um problema de conexão. Por favor, verifique sua internet e tente novamente.";
+                        formStatus.classList.add('error');
+                    } finally {
+                        // Reabilita o botão após a resposta, com um pequeno atraso para UX
+                        setTimeout(() => {
+                            submitButton.disabled = false;
+                            submitButton.textContent = 'Enviar Mensagem';
+                            // Opcional: esconder a mensagem de status após alguns segundos
+                            // if (formStatus.classList.contains('success')) {
+                            //     setTimeout(() => {
+                            //         formStatus.innerHTML = '';
+                            //         formStatus.classList.remove('success');
+                            //     }, 5000); // Esconde após 5 segundos se for sucesso
+                            // }
+                        }, 1000); // 1 segundo
+                    }
+                });
+            }
+        });
+    </script>
+</body>
+</html>
